@@ -1,0 +1,10 @@
+module: {module}
+run_on: {run_on}
+timezone: {timezone}
+skip_weekend: true
+file_pattern: {file_pattern}
+file_max_age: 86400
+exlude_file_pattern: 
+  - "*/tests/*"
+  - ".*"
+tests: {tests}

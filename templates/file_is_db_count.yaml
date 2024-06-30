@@ -1,0 +1,3 @@
+file_is_db_count:
+  db_name: {db_name}
+  sql_count_command: {sql_count_command}

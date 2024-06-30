@@ -1,0 +1,3 @@
+general_bigquery:
+  verification_command: "SELECT row_count FROM 'sqpc-research-dse.clickstream_fraudlogix.__TABLES__ WHERE table_id=fraudlogix"
+  min: 1000

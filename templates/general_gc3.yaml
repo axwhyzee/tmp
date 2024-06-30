@@ -1,0 +1,8 @@
+general_gcs:
+  project: {project}
+  bucket: {bucket}
+  min_modification_time: {default_datetime}
+  prefix: "raw2/10001"
+  filename: "*.dat"
+  min_size: 1000
+  min: 1

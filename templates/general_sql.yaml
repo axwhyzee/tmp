@@ -1,0 +1,5 @@
+general_sql:
+  db_name: {db_name} # mutually exclusive with sql_url
+  sql_url: {sql_name} # mutually exclusive with db_name
+  verification_command: SELECT COUNT(*) FROM <table_name> WHERE observation_time > (now() - interval '24 hours')
+  min: 1

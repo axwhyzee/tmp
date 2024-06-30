@@ -1,0 +1,8 @@
+general_tss:
+  query_type: {query_type}
+  source: {source}
+  table: {table}
+  min_key: {computed_date}
+  start: {computed_date}
+  min: 1
+  limit: 1

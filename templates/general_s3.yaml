@@ -1,0 +1,9 @@
+general_s3:
+  profile_name: {profile_name}
+  region_name: {region_name}
+  bucket: {bucket}
+  min_modification_time: {default_datetime}
+  prefix: "feeds"
+  filename: "*.dat"
+  min_size: 1000
+  min: 1

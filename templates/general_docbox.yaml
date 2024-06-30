@@ -1,0 +1,6 @@
+general_docbox:
+  source: {source}
+  min_publication_time: {default_datetime}
+  min_observation_time: {default_datetime}
+  document_limit: 5
+  min: 5
